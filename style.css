@@ -16,6 +16,7 @@ html,body{
 }
  .container-fluid img{
    margin-left: 100px;
+   margin-right: auto;
  }
  .container-fluid h1{
    margin-right: 300px;
@@ -23,6 +24,16 @@ html,body{
    color: blue;
    text-transform: uppercase;
    font-weight: bold;
+ }
+ @media(max-width: 991px){
+   .container-fluid h1{
+      margin-left: 100px;
+   }
+ }
+ @media(max-width: 700px){
+   .container-fluid{
+      margin-right: 100px;
+   }
  }
  .container p i { 
    font-family: 'Josefin Sans', sans-serif;
@@ -46,7 +57,7 @@ html,body{
    font-weight: bold;
  }
  .datu {
-   margin: 20px auto;
+   margin: 5px auto;
    width: 75%;
  }
  .datu h1 i{
@@ -138,12 +149,11 @@ section, .container, .container-fluid {
    margin-top: 100px;
 }
 .navbar ul li{
-   font-size: 10px;
-   padding: 5px;
+   font-size: 20px;
    display: flex;
    list-style: none;
    display: inline-block;
-   margin-left: 20px;
+   margin-left: 10px;
    position: relative;
 }
 .navbar ul li a{
@@ -196,6 +206,10 @@ section, .container, .container-fluid {
 }
 .container p{
    text-align: justify;
+   text-indent: 2em;
+}
+.card-body p{
+   text-align: center;
 }
 .my-container{
    padding: 30px;
@@ -219,11 +233,9 @@ section, .container, .container-fluid {
 .my-container-fluid ul li a{
    font-size: 30px;
 }
-.navbar-brand{
-   font-size: 10px;
-}
 .my-container p{
    text-align: justify;
+   text-indent: 2em;
 }
 .thumbnail{
    width: 350px;
@@ -398,13 +410,18 @@ footer{
    font-family: 'Times New Roman', Times, serif;
 }
 
-.cid-sF93ETFlLn {
-   background-color: #ffffff;
-   max-width: fit-content;
-   margin: auto;
+.video-container{
+   position: relative;
+   padding-bottom: 50%;
+   padding-top: 0px;
+   height: 100%;
+   overflow: hidden;
+   margin-left: 113px;
+   margin-right: 113px;
 }
-section {
-   background-position: 50% 50%;
-   background-repeat: no-repeat;
-   background-size: cover;
+.video-container iframe, .video-container object, .video-container embed{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
 }
