@@ -50,7 +50,7 @@ html,body{
  .container p i { 
    font-family: 'Josefin Sans', sans-serif;
    text-align: center;
-   color: blue;
+   color: black   ;
    font-weight: bold;
    margin-left: 50px;
  }
@@ -73,7 +73,7 @@ html,body{
    width: 75%;
  }
  .datu h1 i{
-   color: blue;
+   color: black;
    font-size: 50px;
    text-align: center;
  }
@@ -199,7 +199,7 @@ section, .container, .container-fluid {
    color: #fff;
 }
 .carousel-inner {
-   height: 120vh;
+   height: 150vh;
 }
 .container{
    padding: 30px;
@@ -417,12 +417,15 @@ border-radius: 50%;
 
 .card-block h6{
    text-align: center;
-   color: blue;
+   font-size: x-large;
+   color: black;
    font-weight: bold;
    font-family: 'Times New Roman', Times, serif;
+   
 }
 .card-block h6 p{
    font-family: 'Times New Roman', Times, serif;
+   margin-top: 50px;
 }
 
 .video-container{
@@ -439,4 +442,9 @@ border-radius: 50%;
    top: 0;
    left: 0;
    width: 100%;
+}
+.card-container{
+   text-align: center;
+   margin-left: 115px;
+   margin-right: 115px;
 }
