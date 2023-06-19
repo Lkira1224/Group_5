@@ -4,7 +4,6 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 html,body{
    min-height: 100vh;
@@ -86,8 +85,8 @@ html,body{
  }
 
  .container-fluid h1{
-   margin-right: 667px;
-   font-size: 15px;
+   margin-right: 572px;
+   font-size: 18px;
    color: black;
    text-transform: uppercase;
    font-weight: bold;
@@ -99,14 +98,14 @@ html,body{
    text-align: right;
    font-weight: bold;
    color: black;
-   font-family: 'Arial Narrow', Arial, sans-serif;  
+   font-family: "Josefin Sans", sans-serif;
    font-size: 20px;
  }
  .container h2{
    text-align: left;
    font-weight: bold;
    color: black;
-   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-family: "Josefin Sans", sans-serif;
    font-size: 20px;
  }
  .container h3{
@@ -114,7 +113,7 @@ html,body{
    font-weight: bold;
    color: black;
    font-size: 50px;
-   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-family: "Josefin Sans", sans-serif;
  }
  .container p{
    font-family: 'Arial Narrow', Arial, sans-serif;
@@ -126,7 +125,7 @@ html,body{
    text-align: right;
    font-weight: bold;
    color: black;
-   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-family: "Josefin Sans", sans-serif;
 }
 .my-container p{
    font-family: 'Arial Narrow', Arial, sans-serif;
@@ -135,19 +134,19 @@ html,body{
    text-align: left;
    font-weight: bold;
    color: black;
-   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-family: "Josefin Sans", sans-serif;
 }
 .my-container h3{
    text-align: right;
    font-weight: bold;
    color: black;
-   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-family: "Josefin Sans", sans-serif;
 }
 .my-container h4{
    text-align: left;
    font-weight: bold;
    color: black;
-   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-family: "Josefin Sans", sans-serif;
 }
 .cid-sF9GNtbjGU {
    padding-top: 1rem;
@@ -207,12 +206,9 @@ section, .container, .container-fluid {
    text-align: center;
    color: #fff;
 }
-.carousel-inner {
-   height: 150vh;
-}
 .container{
    padding: 30px;
-   font-family:'Arial Narrow', Arial, sans-serif;
+   font-family: "Josefin Sans", sans-serif;
    font-size: 16px;
    font-weight: 300;
    line-height: 24px;
@@ -234,7 +230,7 @@ section, .container, .container-fluid {
 }
 .my-container{
    padding: 30px;
-   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-family: "Josefin Sans", sans-serif;
    font-size: 16px;
    font-weight: 300;
    line-height: 24px;
@@ -391,10 +387,6 @@ border-radius: 50%;
       margin: 10px;
    }
 }
-
-*{
-   font-family: 'Arial Narrow', Arial, sans-serif;
-}
 .col-sm-4 div{
    padding: 50px;
 }
@@ -429,7 +421,7 @@ border-radius: 50%;
    font-size: x-large;
    color: black;
    font-weight: bold;
-   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-family: "Josefin Sans", sans-serif;
    font-size: 20px;
 }
 .card-block h6 p{
