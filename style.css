@@ -4,7 +4,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 html,body{
    min-height: 100vh;
@@ -48,14 +48,14 @@ html,body{
    }
  }
  .container p i { 
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
    text-align: center;
    color: black   ;
    font-weight: bold;
    margin-left: 50px;
  }
  .container h1 p{
-   font-family: 'Times New Roman', Times, serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
  }
  h5{
    background-color: blue;
@@ -85,6 +85,13 @@ html,body{
    margin-right: 20px;
  }
 
+ .container-fluid h1{
+   margin-right: 667px;
+   font-size: 15px;
+   color: black;
+   text-transform: uppercase;
+   font-weight: bold;
+ }
 .container-fluid img {
    border-radius: 50%;
  }
@@ -92,53 +99,55 @@ html,body{
    text-align: right;
    font-weight: bold;
    color: black;
-   font-family: 'Cormorant Garamond', serif;  
+   font-family: 'Arial Narrow', Arial, sans-serif;  
+   font-size: 20px;
  }
  .container h2{
    text-align: left;
    font-weight: bold;
    color: black;
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
  }
  .container h3{
    text-align: left;
    font-weight: bold;
    color: black;
    font-size: 50px;
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
  }
  .container p{
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
  }
  .col-md-8 p{
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
  }
 .my-container h1{
    text-align: right;
    font-weight: bold;
    color: black;
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 .my-container p{
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 .my-container h2{
    text-align: left;
    font-weight: bold;
    color: black;
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 .my-container h3{
    text-align: right;
    font-weight: bold;
    color: black;
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 .my-container h4{
    text-align: left;
    font-weight: bold;
    color: black;
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 .cid-sF9GNtbjGU {
    padding-top: 1rem;
@@ -171,8 +180,8 @@ section, .container, .container-fluid {
 .navbar ul li a{
    text-decoration: none;
    font-weight: bold;
+   font-size: 10px;
    color: blue;
-   text-transform: uppercase;
 }
 .navbar ul li::after{
    content: '';
@@ -203,7 +212,7 @@ section, .container, .container-fluid {
 }
 .container{
    padding: 30px;
-   font-family:'Montserrat', sans-serif;
+   font-family:'Arial Narrow', Arial, sans-serif;
    font-size: 16px;
    font-weight: 300;
    line-height: 24px;
@@ -225,7 +234,7 @@ section, .container, .container-fluid {
 }
 .my-container{
    padding: 30px;
-   font-family: 'roboto';
+   font-family: 'Arial Narrow', Arial, sans-serif;
    font-size: 16px;
    font-weight: 300;
    line-height: 24px;
@@ -384,7 +393,7 @@ border-radius: 50%;
 }
 
 *{
-   font-family: 'Source Code Pro', monospace;
+   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 .col-sm-4 div{
    padding: 50px;
@@ -420,11 +429,11 @@ border-radius: 50%;
    font-size: x-large;
    color: black;
    font-weight: bold;
-   font-family: 'Times New Roman', Times, serif;
-   
+   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
 }
 .card-block h6 p{
-   font-family: 'Times New Roman', Times, serif;
+   font-family: 'Arial Narrow', Arial, sans-serif;
    margin-top: 50px;
 }
 

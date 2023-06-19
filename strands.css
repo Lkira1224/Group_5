@@ -197,8 +197,8 @@
 }
 
 .card {
-  border-radius: 0;
-  margin: 10px auto;
+  background-color: transparent;
+  margin: 5px auto;
 }
 
 .card-title {
@@ -207,9 +207,8 @@
 
 .card-text {
   margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: #FFFFFF;
-  color: #000000;
+  margin-bottom: 5px;
+  color: black;
 }
 
 a.btn, a.btn:visited {
