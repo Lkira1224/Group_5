@@ -20,11 +20,6 @@
     body{
       background-image: url(img_pcaat.JPG);
     }
-    .pcaatlogo img {
-   width: 100px;
-   margin-left: 185px;
-   margin-bottom: -160px;
-}
 .header h1{
   font-family: 'Cormorant Garamond', serif;
    text-align: center;
@@ -33,6 +28,13 @@
    font-size: 20px;
    color: blue;
    background-color: antiquewhite;
+ }
+ .container-fluid h1{
+   margin-right: 300px;
+   font-size: 20px;
+   color: blue;
+   text-transform: uppercase;
+   font-weight: bold;
  }
    </style>
 </head>
@@ -49,13 +51,13 @@
       <div class="navbar" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="#carouselExampleIndicators">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="strands.html">Strands</a>
+            <a class="nav-link" href="#strands">Strands</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="#president">About</a>
           </li>
         </ul>
       </div>
@@ -216,8 +218,9 @@
   <h1></h1>
 </div>
 <br>
-<h5><i>Strands</i></h5><hr>
+
 <!--Strands Start-->
+<h5 id="strands">Strands</h5>
 <div class="main-container">
   <header>
    
@@ -324,7 +327,7 @@
 <!--Strands End-->
 <hr>
 <!--About start-->
-<h5><i>President</i></h5><hr>
+<h5 id="president">President's</h5>
     <div class="container">
         <img src="president.JPG" alt="">
         <div>
@@ -400,7 +403,6 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="strands.html">Strands</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="http://pcaat.edu.ph/Contact%20Us.html">Contact Us</a></li>
         </ul>
       </div>
 

@@ -18,21 +18,33 @@ html,body{
    margin-left: 100px;
    margin-right: auto;
  }
- .container-fluid h1{
-   margin-right: 300px;
-   font-size: 20px;
-   color: blue;
-   text-transform: uppercase;
-   font-weight: bold;
- }
- @media(max-width: 991px){
-   .container-fluid h1{
-      margin-left: 100px;
+ @media(max-width: 442px){
+   .container-fluid img{
+      margin-left: 0px;
    }
  }
- @media(max-width: 700px){
-   .container-fluid{
+ 
+ .pcaatlogo img {
+   width: 100px;
+   margin-left: 109px;
+   margin-bottom: -160px;
+   margin-right: auto;
+}
+@media(max-width: 442px){
+   .pcaatlogo img {
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: auto;
+}
+}
+ @media(max-width: 991px){
+   .container-fluid h1{
       margin-right: 100px;
+   }
+ }
+ @media(max-width: 442px){
+   .container-fluid h1{
+      margin-left: 0px;
    }
  }
  .container p i { 
