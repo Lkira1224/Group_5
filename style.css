@@ -13,6 +13,13 @@ html,body{
    padding: 0;
    overflow-x: hidden;
 }
+.carousel{
+   min-height: 100vh;
+  }
+  .carousel-inner{
+   min-height: 100vh;
+  }
+
  .container-fluid img{
    margin-left: 100px;
    margin-right: auto;
@@ -58,11 +65,10 @@ html,body{
    font-family: 'Arial Narrow', Arial, sans-serif;
  }
  h5{
-   background-color: blue;
    padding: 10px;
    text-align: center;
    font-size: 50px;
-   color: white;
+   color: black;
  }
  .card-body p {
    text-align: center;
@@ -453,4 +459,18 @@ border-radius: 50%;
    text-align: center;
    margin-left: 115px;
    margin-right: 115px;
+}
+.carousel-inner h5{
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+   background-color: transparent;
+}
+.carousel-inner p{
+   color: black;
+   background-color: white;
+   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   text-align: justify;
+   text-indent: 2em;
 }
